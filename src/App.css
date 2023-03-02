@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.homePage{
+  display: flex;
+  flex-direction: row;
+}
+
+.secondContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}

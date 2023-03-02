@@ -1,0 +1,88 @@
+.mainDiv {
+    margin-left: 1rem;
+    text-align: center;
+    width: 15rem;
+    margin-top: 1.5rem;
+}
+
+.patientImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    
+}
+
+.patientName {
+    margin: 0;
+ }
+
+ .info p {
+    margin: 0;
+ }
+
+ .basicInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin-top: 1rem;
+ }
+
+ .basicInfo h5{
+    font-size: 2rem;
+    font-weight: 200;
+    margin: 0;
+ }
+
+ .basicInfo>div {
+    margin-right: 1rem;
+ }
+ 
+ .basicInfo p{
+    font-size: 10px;
+ }
+
+ .basicInfo .vl {
+    border-left: 3px solid rgb(154, 154, 154);
+ }
+
+ .sendBtn {
+    margin-top: 2rem;
+    height: 2rem;
+    width: 12rem;
+    background-color: white;
+    border: 1px solid rgb(161, 160, 160);
+    border-radius: 5px;
+ }
+
+ .files {
+    text-align: left;
+ }
+
+ .files h5{
+    font-size: 1.25rem;
+    font-weight: 300;
+ }
+
+ .pdfs{
+    list-style: none;
+    padding: 0;
+ }
+
+ .pdf {
+    height: 1.5rem;
+    width: 13rem;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    background-color: rgb(249, 246, 246);
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+ }
+
+ .pdf>p{
+    margin: 0;
+    font-size: 14px;
+ }

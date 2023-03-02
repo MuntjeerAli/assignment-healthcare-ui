@@ -1,0 +1,97 @@
+.lastContainer {
+    width: 90%;
+    margin: 0 2rem 3rem 2rem;
+}
+
+.historyBtns {
+    width: 60%;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    background-color: rgb(249, 246, 246);
+    padding: 3px;
+}
+
+.historyBtns>button {
+    width: 33%;
+    border: none;
+    background-color: rgb(249, 246, 246);
+    color: rgb(168, 167, 167);
+}
+
+.historyBtns>button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(109, 109, 228);
+}
+
+.infoContainer {
+    margin-top: 1rem;
+    background-color: rgb(249, 246, 246);
+    width: 100%;
+    border-radius: 7px;
+    padding: 0 1rem 1rem 1rem;
+}
+
+.titleLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(208, 205, 205);
+}
+
+.titleLine .heroPara {
+    color: rgb(99, 99, 99);
+}
+
+.titleLine .prevBtn{
+    border: none;
+    background-color: rgb(249, 246, 246);
+    color: rgb(168, 167, 167);
+}
+
+.titleLine .prevBtn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(109, 109, 228);
+}
+
+.treatment {
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+    margin: 0.5rem 1rem;
+    background-color: white;
+    padding: 0.5rem 1rem;
+}
+.treatInfo>h3 {
+    color: black;
+    font-weight: 400;
+}
+.drHistory {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+.smallTitle {
+    color: rgb(99, 99, 99);
+}
+.dr {
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+.note {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(109, 109, 228);
+}
+
+.note>p{
+    margin: 0;
+    padding-left: 1rem;
+}

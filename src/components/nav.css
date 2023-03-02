@@ -1,0 +1,28 @@
+.navbar {
+    width: 4rem;
+    height: 650px;
+    border-right: 2px solid rgb(172, 170, 170);
+}
+
+.navbar ul {
+    list-style-type: none;
+    height: 650px;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    padding: 1rem 0.5rem 1.2rem 1rem;
+}
+
+.list li>p{
+    font-size: 6px;
+}
+
+.list li:hover {
+    cursor: pointer;
+    color: white;
+    background-color: green;
+}
